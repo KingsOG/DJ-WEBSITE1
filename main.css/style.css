@@ -21,11 +21,25 @@ header {
 
 }
 
-header section {
-   
+.nav-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.nav-list li {
+    list-style: none;
+}
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
-
+.icons li {
+    list-style: none;
+}
 
 main{
     clear: both;
